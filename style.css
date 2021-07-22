@@ -17,6 +17,8 @@ body {
     cursor: pointer;
     text-decoration: none;
     border: none;
+    font-weight: 500;
+    border-radius: 5px;
 }
 
 .button-github {
@@ -29,6 +31,7 @@ body {
     cursor: pointer;
     text-decoration: none;
     border: none;
+    border-radius: 5px;
 }
 
 .button-linkedin {
@@ -41,6 +44,7 @@ body {
     cursor: pointer;
     text-decoration: none;
     border: none;
+    border-radius: 5px;
 }
 
 .link-inline {
@@ -127,4 +131,9 @@ body {
 /* Likes */
 #likes {
     text-align: center;
+}
+
+/* Imagem */
+.round-image {
+    border-radius: 30px;
 }
