@@ -9,13 +9,14 @@ body {
 .container {
     width: 1500px;
     margin: auto;
-    border: 10px solid red;
+    /* border: 10px solid red; */
 }
 
 .mini-container {
     width: 500px;
     margin: auto;
-    border: 10px solid red;
+    padding: 50px;
+    /* border: 10px solid red; */
 }
 
 .landing-text {
@@ -26,15 +27,19 @@ body {
 
 .landing-sub {
     text-align: left;
-    padding: 0px 0px 150px 0px;
+    padding: 0px 0px 180px 0px;
 }
 
 .red-text {
-    color: #AD343E;
+    color: #ad343e;
 }
 
 .yellow-text {
     color: #F3A712;
+}
+
+.blue-text {
+    color: #2d4bc3;
 }
 
 .columns {
@@ -49,7 +54,7 @@ body {
 
 .col-skills {   
     margin: 0 20px;
-    padding: 10px;
+    padding: 0px 0px 50px 0px;
     text-align: center;
 }
 
