@@ -1,0 +1,24 @@
+body {
+    background-color: #242426;
+    color: white;
+    font-family: 'PT sans', sans-serif;
+    font-size: 20px;
+
+}
+
+.landing-text {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3em;
+}
+
+.font-red {
+    color: #AD343E;
+}
+
+.col {
+    background-color: #353537;
+}
+
+#aboutme {
+    background-color: #353537;
+}
