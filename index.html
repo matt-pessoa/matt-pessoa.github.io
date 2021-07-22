@@ -16,91 +16,118 @@
                 <li><a href="#likes">Minhas curtidas</a></li>
             </ul>
         </nav>
-        <hr>
     </div>
 
-    <div id="landing">
-        <!-- Landing -->
-        <h1 class="landing-text">Oi, eu sou o <span class="font-red">Matheus</span></h1>
-        <p>Estudante de Desenvolvimento Web na Trybe</p>
-        <img id="fotomatt" src="images/matt.jpg" width="300"
-            alt="Retrato de Matheus Pessoa Fonseca">
-        <!-- Gerador de frases alimentado por um banco de dados -->
-        <h4><em>We are what we repeatedly do. Excellence, then
-            is not an act, but a habit.<br> - Aristóteles</em></h4>
-        <hr>
-    </div>
+        <section id="landing">
+            <!-- Landing -->
+            <div class="container">
+                <div class="columns">
+                    <div class="col-landing">
+                        <h1 class="landing-text">Oi, eu sou o <span class="red-text">Matheus</span></h1>
+                        <p class="landing-sub">Estudante de Desenvolvimento Web na Trybe</p>
+                    </div>
+                    <div class="col-landing">    
+                        <img id="fotomatt" src="images/matt.jpg" width="300"
+                            alt="Retrato de Matheus Pessoa Fonseca">
+                        <!-- Gerador de frases alimentado por um banco de dados -->
+                        <p><em>We are what we repeatedly do. Excellence, then
+                                is not an act, but a habit.<br> - Aristóteles</em></p>
+                    </div>
+                </div>
+            </div>
 
-    <div id="aboutme">
-        <!-- Sobre mim -->
-        <h1>Sobre mim</h1>
-        <p>Artista por natureza e desenvolvedor por paixão, <b>Matheus Pessoa Fonseca</b> é um estudante brasileiro
-            de Desenvolvimento Web nascido em Belo Horizonte/MG.</p>
-        <p><a href="github.com/matt-pessoa">GitHub</a> | <a href="linkedin.com/in/matt-pessoa">LinkedIn</a></p>
+        </section>
 
-        <!-- Habilidades -->
-        <h2 id="skills">Habilidades</h2>
+        <section id="aboutme">
+            <!-- Sobre mim -->
+            <div class="mini-container">
+                <h1>Sobre mim</h1>
+                <p>Artista por natureza e desenvolvedor por paixão, <b>Matheus Pessoa Fonseca</b> é um estudante brasileiro
+                    de Desenvolvimento Web nascido em Belo Horizonte/MG.</p>
+                <p><a href="github.com/matt-pessoa">GitHub</a> | <a href="linkedin.com/in/matt-pessoa">LinkedIn</a></p>
+            </div>
 
-        <h3>Hard skills</h2>
-        <ul>
-            <li>HTML</li>
-            <li>Git</li>
-            <li>R</li>
-        </ul>
+            <!-- Habilidades -->
+            <div class="container">
 
-        <h3>Soft skills</h2>
-        <ul>
-            <li>Colaboração</li>
-            <li>Flexibilidade</li>
-            <li>Criatividade</li>
-            <li><b>Curiosidade</b></li>
-        </ul>
+                <h2 id="skills">Habilidades</h2>
 
-        <h3>Idiomas</h2>
-        <ul>
-            <li>Português</li>
-            <li>Inglês</li>
-            <li>Francês</li>
-            <li>Italiano</li>
-        </ul>
-        <hr>
-    </div>
+                <div class="columns">
 
-    <div id="likes">
-        <!-- Matheus curtiu... -->
-        <h1><a href="#fotomatt">Matheus</a> curtiu...</h1>
+                    <div class="col-skills">
+                        <h3><span class="red-text">Hard skills</span></h3>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Git</li>
+                        </ul>
+                    </div>
 
-        <!-- James Gurney -->
-        <div class="col">
-            <a href="http://gurneyjourney.blogspot.com/" target="_blank">
-                <img src="https://1.bp.blogspot.com/-H2Wk0ubkdqc/YPlh-SIR-SI/AAAAAAADN8M/JGq5K1yjdOYho00xCNJBxGa8vHJA3r6fQCLcBGAsYHQ/s1100/Clonmel.jpeg" 
-                alt="Pintura a guache de uma árvore com folhas verdes perto de um lago" width=200px>
-            </a>
-                <h3>James Gurney</h3>
-            <p>Blog do meu artista <em>favorito</em></p>
-        </div>
+                    <div class="col-skills">
+                        <h3><span class="yellow-text">Soft skills</span></h3>
+                        <ul>
+                            <li>Colaboração</li>
+                            <li>Flexibilidade</li>
+                            <li>Criatividade</li>
+                            <li><b>Curiosidade</b></li>
+                        </ul>
+                    </div>
 
-        <!-- Nathaniel Drew -->
-        <div class="col">
-            <a href="https://www.nathanieldrew.com/about-this-project" target="_blank">
-                <img src="https://images.squarespace-cdn.com/content/v1/596117cef7e0abdc00aa4d23/1580696461288-LVQCNBGF9WKXQ80YQ3WO/about+cover.jpg?format=1000w" 
-                alt="Rua pouco movimentada cercada por casas amarelas, laranjas e cinzas em Milão" width=200px>
-            </a>
-            <h3>Nathaniel Drew</h3>
-            <p>Ótimo blog sobre clareza mental</p>
-        </div>
+                    <div class="col-skills">
+                        <h3>Idiomas</h3>
+                        <ul>
+                            <li>Português</li>
+                            <li>Inglês</li>
+                            <li>Francês</li>
+                            <li>Italiano</li>
+                        </ul>
+                    </div>
 
-        <!-- Lucrezia -->
-        <div class="col">
-        <a href="https://www.youtube.com/channel/UCnVc-IW8Q98qFmQcXla5FdQ" target="_blank">
-            <img src="https://yt3.ggpht.com/ytc/AKedOLR8EP18dz9h1mInmZPQSYdjv-RN-te55pbRKfubEA=s900-c-k-c0x00ffffff-no-rj"
-            alt="Mulher bebendo algo numa xícara com as cores da bandeira da Itália" width=200px>
-        </a>
-        <h3>Lucrezia</h3>
-        <p>Canal no YouTube para aprender italiano</p>
-        </div>
+                </div>
 
-    </div>
+            </div>    
+
+        </section>
+
+        <section id="likes">
+            <!-- Matheus curtiu... -->
+            <div class="container">
+                <h1><a href="#fotomatt">Matheus</a> curtiu...</h1>
+
+                <div class="columns">
+                    <!-- James Gurney -->
+                    <div class="col-likes">
+                        <a href="http://gurneyjourney.blogspot.com/" target="_blank">
+                            <img src="https://1.bp.blogspot.com/-H2Wk0ubkdqc/YPlh-SIR-SI/AAAAAAADN8M/JGq5K1yjdOYho00xCNJBxGa8vHJA3r6fQCLcBGAsYHQ/s1100/Clonmel.jpeg" 
+                            alt="Pintura a guache de uma árvore com folhas verdes perto de um lago" width=200px height="200px">
+                        </a>
+                            <h3>James Gurney</h3>
+                        <p>Blog do meu artista <em>favorito</em></p>
+                    </div>
+
+                    <!-- Nathaniel Drew -->
+                    <div class="col-likes">
+                        <a href="https://www.nathanieldrew.com/about-this-project" target="_blank">
+                            <img src="https://pbs.twimg.com/profile_images/1205921945583177728/UlBch10n_400x400.jpg" 
+                            alt="Busto de um homem caucasiano de perfil com a mão na boca, usando uma camisa branca" width=200px height="200px">
+                        </a>
+                        <h3>Nathaniel Drew</h3>
+                        <p>Ótimo blog sobre clareza mental</p>
+                    </div>
+
+                    <!-- Lucrezia -->
+                    <div class="col-likes">
+                        <a href="https://www.youtube.com/channel/UCnVc-IW8Q98qFmQcXla5FdQ" target="_blank">
+                            <img src="https://yt3.ggpht.com/ytc/AKedOLR8EP18dz9h1mInmZPQSYdjv-RN-te55pbRKfubEA=s900-c-k-c0x00ffffff-no-rj"
+                            alt="Mulher bebendo algo numa xícara com as cores da bandeira da Itália" width=200px height="200px">
+                        </a>
+                        <h3>Lucrezia</h3>
+                        <p>Canal no YouTube para aprender italiano</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
 
 </body>
 </html>
