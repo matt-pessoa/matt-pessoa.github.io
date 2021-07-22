@@ -43,6 +43,10 @@ body {
     border: none;
 }
 
+.link-inline {
+    text-decoration: none;
+}
+
 /* Containers */
 .container {
     width: 1500px;
