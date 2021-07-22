@@ -6,12 +6,37 @@ body {
 
 }
 
-button {
+/* Botões */
+.button-falecomigo {
     background: #ad343e;
     color: white;
     font-size: 20px;
     padding: 10px;
     margin: 40px 0px;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+}
+
+.button-github {
+    background: #242426;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    /* margin: 40px 0px; */
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+}
+
+.button-linkedin {
+    background: #3450ad;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    /* margin: 40px 0px; */
     display: inline-block;
     cursor: pointer;
     text-decoration: none;
@@ -55,7 +80,7 @@ button {
 }
 
 .blue-text {
-    color: #2d4bc3;
+    color: #3450AD;
 }
 
 /* Colunas */
@@ -67,6 +92,12 @@ button {
 .col-landing {
     margin: 100px; 
     justify-content: center;
+}
+
+.col-about {
+    margin: 0 20px;
+    padding: 0px 0px 50px 0px;
+    text-align: center;
 }
 
 .col-skills {   
