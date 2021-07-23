@@ -6,7 +6,12 @@ body {
 }
 
 .title-right {
-
+    text-align: right;
+    color: #242426;
+    font-size: 170px;
+    font-weight: 700px;
+    line-height: 190px;
+    margin: 0px 100px;
 }
 
 /* Botões */
