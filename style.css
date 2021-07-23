@@ -149,6 +149,12 @@ body {
     margin-right: 500px;
 }
 
+.hard-skills p {
+    font-family: monospace;
+    line-height: 10px;
+    color: #808080;
+}
+
 .soft-skills {
     text-align: right;
 
@@ -156,6 +162,9 @@ body {
 
 .soft-skills p {
     text-align: left;
+    font-family: monospace;
+    line-height: 10px;
+    color: #808080;
 }
 
 /* Likes */
