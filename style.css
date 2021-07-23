@@ -130,12 +130,6 @@ body {
     text-align: center;
 }
 
-.col-skills {   
-    margin: 0 20px;
-    padding: 0px 0px 50px 0px;
-    text-align: center;
-}
-
 .col-likes {
     background-color: #353537;
     margin: 0 20px;
@@ -147,6 +141,24 @@ body {
 /* Sobre mim */
 #aboutme {
     text-align: center;
+}
+
+/* Habilidades */
+.hard-skills {
+    text-align: left;
+    margin-left: 300px;
+}
+
+.soft-skills {
+    text-align: right;
+    margin-right: 300px;
+
+}
+
+.soft-skills p {
+    text-align: left;
+    margin-left: 950px;
+    margin-right: 100px;
 }
 
 /* Likes */
