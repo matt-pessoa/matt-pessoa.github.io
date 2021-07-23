@@ -1,5 +1,5 @@
 body {
-    background-color: #242426;
+    background-color: #1D1C24;
     color: white;
     font-family: 'PT Sans', sans-serif;
     font-size: 25px;
@@ -7,11 +7,20 @@ body {
 
 .title-right {
     text-align: right;
-    color: #242426;
+    color: #2A2931;
     font-size: 170px;
     font-weight: 700px;
     line-height: 190px;
     margin: 0px 100px;
+}
+
+.title-left {
+    text-align: left;
+    color: #2A2931;
+    font-size: 170px;
+    font-weight: 700px;
+    line-height: 190px;
+    margin: 0px 100px;   
 }
 
 /* Botões */
@@ -137,7 +146,6 @@ body {
 
 /* Sobre mim */
 #aboutme {
-    background-color: #353537;
     text-align: center;
 }
 
