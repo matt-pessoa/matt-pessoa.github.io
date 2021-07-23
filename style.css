@@ -146,19 +146,16 @@ body {
 /* Habilidades */
 .hard-skills {
     text-align: left;
-    margin-left: 300px;
+    margin-right: 500px;
 }
 
 .soft-skills {
     text-align: right;
-    margin-right: 300px;
 
 }
 
 .soft-skills p {
     text-align: left;
-    margin-left: 950px;
-    margin-right: 100px;
 }
 
 /* Likes */
