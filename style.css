@@ -140,6 +140,10 @@ body {
     text-align: center;
 }
 
+.col-lang {
+    margin: 0px auto 100px;
+}
+
 /* Sobre mim */
 #aboutme {
     text-align: center;
@@ -169,6 +173,21 @@ body {
     font-family: monospace;
     line-height: 10px;
     color: #808080;
+}
+
+.languages {
+    text-align: center;
+}
+
+.languages p {
+    color: #808080;
+    font-family: monospace;
+    text-align: left;
+}
+
+.lang-code {
+    font-style: italic;
+    color: #5c7ce2;
 }
 
 /* Likes */
