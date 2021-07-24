@@ -1,14 +1,32 @@
 body {
-    background-color: #242426;
+    background-color: #1D1C24;
     color: white;
     font-family: 'PT Sans', sans-serif;
     font-size: 25px;
 }
 
+.title-right {
+    text-align: right;
+    color: #2A2931;
+    font-size: 170px;
+    font-weight: 700px;
+    line-height: 190px;
+    margin: 0px 100px;
+}
+
+.title-left {
+    text-align: left;
+    color: #2A2931;
+    font-size: 170px;
+    font-weight: 700px;
+    line-height: 190px;
+    margin: 0px 100px;   
+}
+
 /* Botões */
 .button-falecomigo {
     background: #ad343e;
-    color: white;
+    color: rgb(211, 209, 209);
     font-size: 20px;
     padding: 10px;
     margin: 40px 0px 0px 110px;
@@ -70,11 +88,13 @@ body {
     font-size: 4em;
     text-align: left;
     margin: 0px 200px 0px 110px;
+    color: rgb(211, 209, 209);
 }
 
 .landing-sub {
     text-align: left;
     margin: 20px 0px 0px 110px;
+    color: #808080;
     /* padding: 0px 0px 180px 0px; */
 }
 
@@ -112,12 +132,6 @@ body {
     text-align: center;
 }
 
-.col-skills {   
-    margin: 0 20px;
-    padding: 0px 0px 50px 0px;
-    text-align: center;
-}
-
 .col-likes {
     background-color: #353537;
     margin: 0 20px;
@@ -126,10 +140,54 @@ body {
     text-align: center;
 }
 
+.col-lang {
+    margin: 0px auto 100px;
+}
+
 /* Sobre mim */
 #aboutme {
-    background-color: #353537;
     text-align: center;
+    color: rgb(211, 209, 209);
+    font-family: monospace;
+}
+
+/* Habilidades */
+.hard-skills {
+    text-align: left;
+    margin-right: 500px;
+}
+
+.hard-skills p {
+    font-family: monospace;
+    line-height: 10px;
+    color: #808080;
+}
+
+.soft-skills {
+    text-align: right;
+
+}
+
+.soft-skills p {
+    text-align: left;
+    font-family: monospace;
+    line-height: 10px;
+    color: #808080;
+}
+
+.languages {
+    text-align: center;
+}
+
+.languages p {
+    color: #808080;
+    font-family: monospace;
+    text-align: left;
+}
+
+.lang-code {
+    font-style: italic;
+    color: #5c7ce2;
 }
 
 /* Likes */

@@ -32,7 +32,7 @@
 
                     <div class="col-landing">
                         <h1 class="landing-text">Oi, eu sou o <br>
-                            <span class="red-text"><span class="yellow-text" style="font-size: 35px;">&lt;b&gt;</span>Matheus</span><span class="yellow-text" style="font-size: 35px;">&lt;/b&gt;</span>
+                            <span class="red-text"><span style="font-size: 35px; color: #2A2931;">&lt;b&gt;</span>Matheus</span><span style="font-size: 35px; color: #2A2931;">&lt;/b&gt;</span>
                         </h1>
                         <p class="landing-sub">Estudante de Desenvolvimento Web na <a href="https://www.betrybe.com/" 
                             target="_blank" class="link-inline"
@@ -48,7 +48,7 @@
                             alt="Retrato de Matheus Pessoa Fonseca">
                         </a>
                         <!-- Gerador de frases alimentado por um banco de dados -->
-                        <p style="font-family: cursive; font-size: 17px; width: 300px;" class="link-inline">
+                        <p style="font-family: cursive; font-size: 17px; width: 300px; color: #808080;" class="link-inline">
                                 <em>We are what we repeatedly do. Excellence, then
                                 is not an act, but a habit.<br> - Aristóteles</em>
                         </p>
@@ -62,8 +62,8 @@
 
         <section id="aboutme">
             <!-- Sobre mim -->
+            <h1 class="title-right">&lt;sobre mim&gt;</h1>
             <div class="mini-container">
-                <h1>Sobre mim</h1>
                 <p style="text-align: justify;">Artista por natureza e desenvolvedor por paixão, <b class="red-text">Matheus Pessoa Fonseca</b> é um estudante brasileiro
                     de Desenvolvimento Web nascido em <a href="https://pt.wikipedia.org/wiki/Belo_Horizonte" class="link-inline blue-text" target="_blank">Belo Horizonte/MG.</a></p>
                 
@@ -82,44 +82,53 @@
                 </div>
 
             </div>
+        </section>
 
-            <!-- Habilidades -->
+        <!-- Habilidades -->
+        <section id="skills">
+            <h2 class="title-left">&lt;habilidades&gt;</h2>
+
             <div class="container">
 
-                <h2 id="skills">Habilidades</h2>
-
                 <div class="columns">
-
-                    <div class="col-skills">
-                        <h3 style="color: #ad4c34;">Hard skills</h3>
-                        <ul>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>Git</li>
-                        </ul>
+                    <div class="hard-skills">
+                        <h3 style="color: #2A2931; font-size: 50px;">.hard-skills {</h3>
+                           <p>HTML</p>
+                           <p>CSS</p>
+                           <p>Git</p>
+                           <p>Unix & Zsh</p>
+                        <h3 style="color: #2A2931; font-size: 50px; text-align: left;">}</h3>
                     </div>
 
-                    <div class="col-skills">
-                        <h3><span class="yellow-text">Soft skills</span></h3>
-                        <ul>
-                            <li>Colaboração</li>
-                            <li>Flexibilidade</li>
-                            <li>Criatividade</li>
-                            <li><b>Curiosidade</b></li>
-                        </ul>
+                    <div class="soft-skills">
+                        <h3 style="color: #2A2931; font-size: 50px;">.soft-skills {</h3>
+                            <p>Colaboração</p>
+                            <p>Flexibilidade</p>
+                            <p>Criatividade</p>
+                            <p><b>Curiosidade</b></p>
+                        <h3 style="color: #2A2931; font-size: 50px; text-align: left;">}</h3>
                     </div>
+                </div>    
 
-                    <div class="col-skills">
-                        <h3><span class=blue-text>Idiomas</span></h3>
-                        <ul>
-                            <li>Português</li>
-                            <li>Inglês</li>
-                            <li>Francês</li>
-                            <li>Italiano</li>
-                        </ul>
+                    <div class="languages">
+                        <h3 style="color: #2A2931">Idiomas</h3>
+                            <div class="columns">
+                                <div class="col-lang">
+                                    <p style="color: #723f43">/* fluente */</p>
+                                    <p><span class="lang-code" style="color: #8d333b;">pt-BR</span> Português</p>
+                                    <p><span class="lang-code" style="color: #8d333b;">en-US</span> English</p>
+                                </div>
+                                <div class="col-lang">
+                                    <p style="color: #77653f;">/* intermediário */</p>
+                                    <p><span class="lang-code" style="color: #b87c04;">fr-FR</span> Français</p>
+                                    <p><span class="lang-code" style="color: #b87c04;">it-IT</span> Italiano</p>
+                                </div>
+                                <div class="col-lang">
+                                    <p style="color: #3b4977">/* básico */</p>
+                                    <p><span class="lang-code" style="color: #3954aa;">es-ES</span> Español</p>
+                                </div>
+                            </div>
                     </div>
-
-                </div>
 
             </div>    
 
