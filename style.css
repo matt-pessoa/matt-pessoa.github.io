@@ -142,12 +142,13 @@ body {
 
 .col-lang {
     margin: 0px auto 100px;
+    color: #D3D1D1;
 }
 
 /* Sobre mim */
 #aboutme {
     text-align: center;
-    color: rgb(211, 209, 209);
+    color: #808080;
     font-family: monospace;
 }
 
