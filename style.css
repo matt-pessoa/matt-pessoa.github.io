@@ -148,7 +148,7 @@ body {
 /* Sobre mim */
 #aboutme {
     text-align: center;
-    color: #808080;
+    color: #D3D1D1;
     font-family: monospace;
 }
 
@@ -184,12 +184,15 @@ body {
 
 .languages {
     text-align: center;
+    color: #808080;
+    font-size: 50px;
 }
 
 .languages p {
-    color: #808080;
+    color: #D3D1D1;
     font-family: monospace;
     text-align: left;
+    font-size: 25px;
 }
 
 .lang-code {
