@@ -38,7 +38,7 @@ header li a {
     font-size: 170px;
     font-weight: 700px;
     line-height: 190px;
-    margin: 0px 100px;
+    margin-bottom: 100px;
 }
 
 .title-left {
@@ -47,7 +47,6 @@ header li a {
     font-size: 170px;
     font-weight: 700px;
     line-height: 190px;
-    margin: 0px 100px;   
 }
 
 /* Botões */
@@ -181,9 +180,14 @@ header li a {
     text-align: center;
     color: #D3D1D1;
     font-family: monospace;
+    margin: 100px;
 }
 
 /* Habilidades */
+#skills {
+    margin: 100px 0px;
+}
+
 .hard-skills {
     text-align: left;
     margin-right: 500px;
