@@ -148,7 +148,7 @@ body {
 /* Sobre mim */
 #aboutme {
     text-align: center;
-    color: #808080;
+    color: #D3D1D1;
     font-family: monospace;
 }
 
@@ -156,16 +156,21 @@ body {
 .hard-skills {
     text-align: left;
     margin-right: 500px;
+    color: #808080;
+    font-size: 50px;
 }
 
 .hard-skills p {
     font-family: monospace;
     line-height: 10px;
-    color: #808080;
+    color: #D3D1D1;
+    font-size: 25px;
 }
 
 .soft-skills {
-    text-align: right;
+    text-align: left;
+    color: #808080;
+    font-size: 50px;
 
 }
 
@@ -173,17 +178,21 @@ body {
     text-align: left;
     font-family: monospace;
     line-height: 10px;
-    color: #808080;
+    color: #D3D1D1;
+    font-size: 25px;
 }
 
 .languages {
     text-align: center;
+    color: #808080;
+    font-size: 50px;
 }
 
 .languages p {
-    color: #808080;
+    color: #D3D1D1;
     font-family: monospace;
     text-align: left;
+    font-size: 25px;
 }
 
 .lang-code {
