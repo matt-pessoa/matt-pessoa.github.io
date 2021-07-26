@@ -24,6 +24,14 @@ header li {
     margin: 20px;
 }
 
+header li a {
+    color: rgb(211, 209, 209);
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 20px;
+    text-align: right;
+}
+
 .title-right {
     text-align: right;
     color: #2A2931;
