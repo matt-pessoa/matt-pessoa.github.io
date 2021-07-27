@@ -29,7 +29,7 @@ header li {
 /* Botões */
 .button-falecomigo {
     background: #ad343e;
-    color: rgb(211, 209, 209);
+    color: rgb(240, 240, 240);
     font-size: 20px;
     padding: 10px;
     margin: 40px 0px 0px 110px;
@@ -102,11 +102,18 @@ header li {
     text-align: left;
     margin: 20px 0px 0px 110px;
     color: #808080;
-    /* padding: 0px 0px 180px 0px; */
+    font-size: 25px;
 }
 
 #fotomatt {
     margin: 0px 110px 0px 0px;
+}
+
+.frase-do-dia {
+    font-family: cursive; 
+    font-size: 17px; 
+    width: 300px; 
+    color: #b1b1b1;
 }
 
 /* Cores das fontes */
