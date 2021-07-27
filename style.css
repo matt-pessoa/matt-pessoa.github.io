@@ -161,8 +161,36 @@ header a:hover {
     margin: 0 20px;
     padding: 10px;
     width: 400px;
+    height: 400px;
     text-align: center;
+    border-radius: 50%;
 }
+
+.col-likes img {
+    border-radius: 15%;
+    width: 200px;
+    height: 200px;
+}
+
+.col-likes img:hover {
+    width: 210px;
+    height: 210px;
+}
+
+/* #gurney img:hover {
+    width: 210px;
+    height: 210px;
+}
+
+#drew img:hover {
+    width: 210px;
+    height: 210px;
+}
+
+#micah img:hover {
+    width: 210px;
+    height: 210px;
+} */
 
 .col-lang {
     margin: 0px auto 100px;
@@ -231,7 +259,9 @@ header a:hover {
 /* Likes */
 #likes {
     text-align: center;
+    margin-bottom: 100px;
 }
+
 
 /* Imagem */
 .round-image {
