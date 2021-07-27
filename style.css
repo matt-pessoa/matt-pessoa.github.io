@@ -9,6 +9,16 @@ header li {
     display: inline;
 }
 
+header a {
+    text-decoration: none;
+    color: #808080;
+    margin: 20px;
+}
+
+header a:hover {
+    color: #b1b1b1;
+}
+
 .title-right {
     text-align: right;
     color: #2A2931;
