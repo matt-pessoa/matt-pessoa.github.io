@@ -5,6 +5,14 @@ body {
     font-size: 25px;
 }
 
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #1D1C24;
+}
+
 header li {
     display: inline;
 }
@@ -16,7 +24,7 @@ header a {
 }
 
 header a:hover {
-    color: #b1b1b1;
+    color: #AD343E;
 }
 
 .title-right {
@@ -52,7 +60,7 @@ header a:hover {
 }
 
 .button-falecomigo:hover {
-    opacity: 70%;
+    opacity: 50%;
 }
 
 .button-github {
@@ -69,7 +77,7 @@ header a:hover {
 }
 
 .button-github:hover {
-    opacity: 70%;
+    opacity: 50%;
 }
 
 .button-linkedin {
@@ -86,7 +94,7 @@ header a:hover {
 }
 
 .button-linkedin:hover {
-    opacity: 70%;
+    opacity: 50%;
 }
 
 .link-inline {
@@ -109,7 +117,7 @@ header a:hover {
 
 /* Landing */
 #landing {
-    margin: 150px 0px;
+    margin: 210px 0px;
 }
 
 .landing-text {
@@ -127,13 +135,17 @@ header a:hover {
     font-size: 25px;
 }
 
+.landing-sub a:hover {
+    opacity: 50%;
+}
+
 #fotomatt {
     margin: 0px 110px 0px 0px;
     width: 310px;
 }
 
 #fotomatt:hover {
-    opacity: 70%;
+    opacity: 60%;
 
 }
 
