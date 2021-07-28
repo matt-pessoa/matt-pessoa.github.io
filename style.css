@@ -306,6 +306,8 @@ header a:hover {
 
 .iframe-link:hover iframe {
     position: absolute;
+    z-index: 0;
+    opacity: 70%;
     display: inline-block;
     width: 385px;
     height: 520px;
