@@ -242,7 +242,6 @@ header a:hover {
 .hard-skills li {
     font-family: monospace;
     line-height: 50px;
-    color: #8d333b;
     font-size: 30px;
 }
 
@@ -257,13 +256,12 @@ header a:hover {
     text-align: left;
     font-family: monospace;
     line-height: 50px;
-    color: #3954aa;
     font-size: 25px;
 }
 
 .languages {
     text-align: center;
-    color: #808080;
+    color: #c99e47;
     font-size: 50px;
 }
 
@@ -281,8 +279,9 @@ header a:hover {
 /* Likes */
 #likes {
     text-align: center;
-    margin-bottom: 130px;
-		color: #D3D1D1;
+    margin-top: 50px;
+    margin-bottom: 100px;
+	color: #D3D1D1;
 }
 
 #likes h1 {
