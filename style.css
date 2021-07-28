@@ -156,7 +156,7 @@ header a:hover {
 
 .yellow-text {
     color: #F3A712;
-		opacity: 60%;
+	opacity: 60%;
 }
 
 .blue-text {
@@ -298,4 +298,18 @@ header a:hover {
 /* Imagem */
 .round-image {
     border-radius: 30px;
+}
+
+.iframe-link iframe {
+    display: none;
+}
+
+.iframe-link:hover iframe {
+    position: absolute;
+    float: right;
+    z-index: 0;
+    display: block;
+    width: 385px;
+    height: 520px;
+    border: none;
 }
