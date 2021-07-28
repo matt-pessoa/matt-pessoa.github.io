@@ -275,7 +275,17 @@ header a:hover {
 /* Likes */
 #likes {
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 130px;
+		color: #D3D1D1;
+}
+
+#likes h1 {
+	font-size: 50px;
+	margin-bottom: 200px;
+}
+
+#likes:hover {
+	color: #ad343e;
 }
 
 
