@@ -5,6 +5,14 @@ body {
     font-size: 25px;
 }
 
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #1D1C24;
+}
+
 header li {
     display: inline;
 }
@@ -16,7 +24,7 @@ header a {
 }
 
 header a:hover {
-    color: #b1b1b1;
+    color: #AD343E;
 }
 
 .title-right {
@@ -25,7 +33,7 @@ header a:hover {
     font-size: 170px;
     font-weight: 700px;
     line-height: 190px;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
 }
 
 .title-left {
@@ -51,6 +59,10 @@ header a:hover {
     border-radius: 5px;
 }
 
+.button-falecomigo:hover {
+    opacity: 50%;
+}
+
 .button-github {
     background: #242426;
     color: white;
@@ -62,6 +74,10 @@ header a:hover {
     text-decoration: none;
     border: none;
     border-radius: 5px;
+}
+
+.button-github:hover {
+    opacity: 50%;
 }
 
 .button-linkedin {
@@ -77,6 +93,10 @@ header a:hover {
     border-radius: 5px;
 }
 
+.button-linkedin:hover {
+    opacity: 50%;
+}
+
 .link-inline {
     text-decoration: none;
 }
@@ -88,16 +108,9 @@ header a:hover {
     /* border: 10px solid red; */
 }
 
-.mini-container {
-    width: 500px;
-    margin: auto;
-    padding: 50px;
-    /* border: 10px solid red; */
-}
-
 /* Landing */
 #landing {
-    margin: 150px 0px;
+    margin: 210px 0px;
 }
 
 .landing-text {
@@ -115,8 +128,18 @@ header a:hover {
     font-size: 25px;
 }
 
+.landing-sub a:hover {
+    opacity: 50%;
+}
+
 #fotomatt {
     margin: 0px 110px 0px 0px;
+    width: 310px;
+}
+
+#fotomatt:hover {
+    opacity: 60%;
+
 }
 
 .frase-do-dia {
@@ -133,6 +156,7 @@ header a:hover {
 
 .yellow-text {
     color: #F3A712;
+		opacity: 60%;
 }
 
 .blue-text {
@@ -150,10 +174,18 @@ header a:hover {
     justify-content: center;
 }
 
+.col {
+	margin: 0px 50px;
+	padding: 100px;
+	width: 400px;
+	text-align: left;
+	/* border: 2px solid red; */
+}
+
 .col-about {
     margin: 0 20px;
     padding: 0px 0px 50px 0px;
-    text-align: center;
+    text-align: left;
 }
 
 .col-likes {
@@ -161,7 +193,21 @@ header a:hover {
     margin: 0 20px;
     padding: 10px;
     width: 400px;
+    height: 400px;
     text-align: center;
+    border-radius: 50%;
+    color: #D3D1D1;
+}
+
+.col-likes img {
+    border-radius: 15%;
+    width: 200px;
+    height: 200px;
+}
+
+.col-likes img:hover {
+    width: 210px;
+    height: 210px;
 }
 
 .col-lang {
@@ -231,7 +277,19 @@ header a:hover {
 /* Likes */
 #likes {
     text-align: center;
+    margin-bottom: 130px;
+		color: #D3D1D1;
 }
+
+#likes h1 {
+	font-size: 50px;
+	margin-bottom: 200px;
+}
+
+#likes:hover {
+	color: #ad343e;
+}
+
 
 /* Imagem */
 .round-image {
