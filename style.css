@@ -101,6 +101,10 @@ header a:hover {
     text-decoration: none;
 }
 
+.link-inline:hover {
+    opacity: 50%;
+}
+
 /* Containers */
 .container {
     width: 1500px;
@@ -128,9 +132,6 @@ header a:hover {
     font-size: 25px;
 }
 
-.landing-sub a:hover {
-    opacity: 50%;
-}
 
 #fotomatt {
     margin: 0px 110px 0px 0px;
@@ -305,10 +306,8 @@ header a:hover {
 
 .iframe-link:hover iframe {
     position: absolute;
-    z-index: 0;
     display: inline-block;
     width: 385px;
     height: 520px;
     border: none;
-    opacity: 50%;
 }
