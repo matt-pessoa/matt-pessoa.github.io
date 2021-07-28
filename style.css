@@ -228,6 +228,10 @@ header a:hover {
     margin: 100px 0px;
 }
 
+#skills ul {
+    list-style-type: none;
+}
+
 .hard-skills {
     text-align: left;
     margin-right: 500px;
@@ -235,11 +239,11 @@ header a:hover {
     font-size: 50px;
 }
 
-.hard-skills p {
+.hard-skills li {
     font-family: monospace;
-    line-height: 10px;
-    color: #D3D1D1;
-    font-size: 25px;
+    line-height: 50px;
+    color: #8d333b;
+    font-size: 30px;
 }
 
 .soft-skills {
@@ -249,11 +253,11 @@ header a:hover {
 
 }
 
-.soft-skills p {
+.soft-skills li {
     text-align: left;
     font-family: monospace;
-    line-height: 10px;
-    color: #D3D1D1;
+    line-height: 50px;
+    color: #3954aa;
     font-size: 25px;
 }
 
