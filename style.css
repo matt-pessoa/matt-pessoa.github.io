@@ -51,6 +51,10 @@ header a:hover {
     border-radius: 5px;
 }
 
+.button-falecomigo:hover {
+    opacity: 70%;
+}
+
 .button-github {
     background: #242426;
     color: white;
@@ -64,6 +68,10 @@ header a:hover {
     border-radius: 5px;
 }
 
+.button-github:hover {
+    opacity: 70%;
+}
+
 .button-linkedin {
     background: #3450ad;
     color: white;
@@ -75,6 +83,10 @@ header a:hover {
     text-decoration: none;
     border: none;
     border-radius: 5px;
+}
+
+.button-linkedin:hover {
+    opacity: 70%;
 }
 
 .link-inline {
@@ -117,6 +129,12 @@ header a:hover {
 
 #fotomatt {
     margin: 0px 110px 0px 0px;
+    width: 310px;
+}
+
+#fotomatt:hover {
+    opacity: 70%;
+
 }
 
 .frase-do-dia {
@@ -164,6 +182,7 @@ header a:hover {
     height: 400px;
     text-align: center;
     border-radius: 50%;
+    color: #D3D1D1;
 }
 
 .col-likes img {
@@ -176,21 +195,6 @@ header a:hover {
     width: 210px;
     height: 210px;
 }
-
-/* #gurney img:hover {
-    width: 210px;
-    height: 210px;
-}
-
-#drew img:hover {
-    width: 210px;
-    height: 210px;
-}
-
-#micah img:hover {
-    width: 210px;
-    height: 210px;
-} */
 
 .col-lang {
     margin: 0px auto 100px;
