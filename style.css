@@ -156,7 +156,7 @@ header a:hover {
 
 .yellow-text {
     color: #F3A712;
-		opacity: 60%;
+	/* opacity: 60%;  mudar a opacidade causa conflito com o cabeçalho*/
 }
 
 .blue-text {
@@ -228,6 +228,10 @@ header a:hover {
     margin: 100px 0px;
 }
 
+#skills ul {
+    list-style-type: none;
+}
+
 .hard-skills {
     text-align: left;
     margin-right: 500px;
@@ -235,11 +239,10 @@ header a:hover {
     font-size: 50px;
 }
 
-.hard-skills p {
+.hard-skills li {
     font-family: monospace;
-    line-height: 10px;
-    color: #D3D1D1;
-    font-size: 25px;
+    line-height: 50px;
+    font-size: 30px;
 }
 
 .soft-skills {
@@ -249,17 +252,16 @@ header a:hover {
 
 }
 
-.soft-skills p {
+.soft-skills li {
     text-align: left;
     font-family: monospace;
-    line-height: 10px;
-    color: #D3D1D1;
+    line-height: 50px;
     font-size: 25px;
 }
 
 .languages {
     text-align: center;
-    color: #808080;
+    color: #c99e47;
     font-size: 50px;
 }
 
@@ -277,8 +279,9 @@ header a:hover {
 /* Likes */
 #likes {
     text-align: center;
-    margin-bottom: 130px;
-		color: #D3D1D1;
+    margin-top: 50px;
+    margin-bottom: 100px;
+	color: #D3D1D1;
 }
 
 #likes h1 {
@@ -294,4 +297,18 @@ header a:hover {
 /* Imagem */
 .round-image {
     border-radius: 30px;
+}
+
+.iframe-link iframe {
+    display: none;
+}
+
+.iframe-link:hover iframe {
+    position: absolute;
+    z-index: 0;
+    display: inline-block;
+    width: 385px;
+    height: 520px;
+    border: none;
+    opacity: 50%;
 }
