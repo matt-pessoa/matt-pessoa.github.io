@@ -33,7 +33,7 @@ header a:hover {
     font-size: 170px;
     font-weight: 700px;
     line-height: 190px;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
 }
 
 .title-left {
@@ -108,13 +108,6 @@ header a:hover {
     /* border: 10px solid red; */
 }
 
-.mini-container {
-    width: 500px;
-    margin: auto;
-    padding: 50px;
-    /* border: 10px solid red; */
-}
-
 /* Landing */
 #landing {
     margin: 210px 0px;
@@ -163,6 +156,7 @@ header a:hover {
 
 .yellow-text {
     color: #F3A712;
+		opacity: 60%;
 }
 
 .blue-text {
@@ -180,10 +174,18 @@ header a:hover {
     justify-content: center;
 }
 
+.col {
+	margin: 0px 50px;
+	padding: 100px;
+	width: 400px;
+	text-align: left;
+	/* border: 2px solid red; */
+}
+
 .col-about {
     margin: 0 20px;
     padding: 0px 0px 50px 0px;
-    text-align: center;
+    text-align: left;
 }
 
 .col-likes {
