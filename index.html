@@ -1,219 +1,322 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Portfolio | Matheus Pessoa</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-</head>
-<body>
+  <body>
     <!-- Navbar -->
     <header>
-        <nav>
-            <ul>
-                <li><a href="#landing">Início</a></li>
-                <li><a href="#aboutme">Sobre mim</a></li>
-                <li><a href="#skills">Habilidades</a></li>
-                <li><a href="#likes">Minhas curtidas</a></li>
-            </ul>
-        </nav>
-
+      <nav>
+        <ul>
+          <li><a href="#landing">Início</a></li>
+          <li><a href="#aboutme">Sobre mim</a></li>
+          <li><a href="#skills">Habilidades</a></li>
+          <li><a href="#likes">Minhas curtidas</a></li>
+        </ul>
+      </nav>
     </header>
 
     <main>
+      <section id="landing">
+        <!-- Landing -->
+        <div class="container">
+          <div class="columns">
+            <div class="col-landing">
+              <h1 class="landing-text">
+                Oi, eu sou o <br />
+                <span class="red-text"
+                  ><span style="font-size: 35px; color: #2a2931">&lt;b&gt;</span
+                  >Matheus</span
+                ><span style="font-size: 35px; color: #2a2931">&lt;/b&gt;</span>
+              </h1>
+              <h2 class="landing-sub">
+                Estudante de Desenvolvimento Web na
+                <a
+                  href="https://www.betrybe.com/"
+                  target="_blank"
+                  class="link-inline"
+                  style="color: #1c7759"
+                  >Trybe 🚀</a
+                >
+              </h2>
+              <a href="forms.html" target="_blank">
+                <button class="button-falecomigo">Fale comigo!</button>
+              </a>
+            </div>
 
-        <section id="landing">
-            <!-- Landing -->
-            <div class="container">
+            <div class="col-landing">
+              <a href="https://www.instagram.com/mattabacate/" target="_blank">
+                <img
+                  id="fotomatt"
+                  class="round-image"
+                  src="images/matt.jpg"
+                  alt="Retrato de Matheus Pessoa Fonseca"
+                />
+              </a>
+              <!-- Gerador de frases alimentado por um banco de dados -->
+              <p class="frase-do-dia">
+                <em
+                  >We are what we repeatedly do. Excellence, then is not an act,
+                  but a habit.<br />
+                  - Aristóteles</em
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-                <div class="columns">
+      <section id="aboutme">
+        <!-- Sobre mim -->
+        <div class="container">
+          <h1 class="title-right">&lt;sobre mim&gt;</h1>
+        </div>
 
-                    <div class="col-landing">
-                        <h1 class="landing-text">Oi, eu sou o <br>
-                            <span class="red-text"><span style="font-size: 35px; color: #2A2931;">&lt;b&gt;</span>Matheus</span><span style="font-size: 35px; color: #2A2931;">&lt;/b&gt;</span>
-                        </h1>
-                        <h2 class="landing-sub">Estudante de Desenvolvimento Web na <a href="https://www.betrybe.com/" 
-                            target="_blank" class="link-inline"
-                            style="color: #1c7759;">Trybe 🚀</a></h2>
-                        <a href="forms.html" target="_blank">
-                            <button class="button-falecomigo">Fale comigo!</button>
-                        </a>
-                    </div>
-                      
-                    <div class="col-landing">    
-                        <a href="https://www.instagram.com/mattabacate/" target="_blank">
-                            <img id="fotomatt" class="round-image" src="images/matt.jpg"
-                            alt="Retrato de Matheus Pessoa Fonseca">
-                        </a>
-                        <!-- Gerador de frases alimentado por um banco de dados -->
-                        <p class="frase-do-dia">
-                                <em>We are what we repeatedly do. Excellence, then
-                                is not an act, but a habit.<br> - Aristóteles</em>
-                        </p>
-                    </div>
+        <div class="container">
+          <div class="columns">
+            <div class="col">
+              <h2>
+                <span class="yellow-text">$ man</span>
+                <span class="red-text">matheus</span>
+              </h2>
+              <p>
+                Artista por natureza e desenvolvedor por paixão,
+                <b class="red-text">Matheus Pessoa Fonseca</b> é um estudante
+                brasileiro de Desenvolvimento Web nascido em
+                <a
+                  href="https://pt.wikipedia.org/wiki/Belo_Horizonte"
+                  class="link-inline blue-text"
+                  target="_blank"
+                  >Belo Horizonte/MG</a
+                >.
+              </p>
 
+              <div class="columns">
+                <div class="col-about">
+                  <a href="https://github.com/matt-pessoa/" target="_blank">
+                    <button class="button-github">GitHub</button>
+                  </a>
                 </div>
 
-            </div>
-
-        </section>
-
-        <section id="aboutme">
-            <!-- Sobre mim -->
-            <div class="container">
-                <h1 class="title-right">&lt;sobre mim&gt;</h1>
-            </div>
-            
-            <div class="container">
-
-                <div class="columns">
-
-                    <div class="col">  
-                        <h2><span class="yellow-text">$ man</span> <span class="red-text">matheus</span></h2>
-                        <p>Artista por natureza e desenvolvedor por paixão, <b class="red-text">Matheus Pessoa Fonseca</b> é um estudante brasileiro
-                            de Desenvolvimento Web nascido em <a href="https://pt.wikipedia.org/wiki/Belo_Horizonte" class="link-inline blue-text" target="_blank">Belo Horizonte/MG</a>.</p>
-                        
-                        <div class="columns">
-                            <div class="col-about">
-                                <a href="https://github.com/matt-pessoa/" target="_blank">
-                                        <button class="button-github">GitHub</button>
-                                </a>
-                            </div>
-
-                            <div class="col-about">
-                                <a href="https://linkedin.com/in/matt-pessoa" target="_blank">
-                                    <button class="button-linkedin">LinkedIn</button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col" style="text-align: right;">
-                        <h2><span class="yellow-text">$ cd</span> <span class="blue-text">hobbies</span></h2>
-                        <p>Quando não estou atrás de uma tela editando arquivos de texto,
-                           você pode me encontrar <a href="https://www.google.com.br/maps/place/Belo+Horizonte,+MG/@-19.9025412,-44.03409,12z/data=!3m1!4b1!4m5!3m4!1s0xa690cacacf2c33:0x5b35795e3ad23997!8m2!3d-19.919052!4d-43.9386685" 
-                           class="link-inline blue-text" target="_blank">em algum lugar do mundo</a>
-                           <a href="https://www.instagram.com/mattabacate" class="link-inline red-text iframe-link" target="_blank">
-                           pintando quadros em aquarela<span style="color: #D3D1D1">,</span>
-                           <iframe src="https://lh3.googleusercontent.com/-a_C41i-okTc/YQDZqegSA5I/AAAAAAAAAzo/rHE22duvwcMZZUEoqR4QARcDqTIjC1kwwCLcBGAsYHQ/20210726_132126.jpg"></iframe>
-                           </a>tocando violão com meus amigos, descobrindo novos sabores de chá
-                           ou preso em algum paradoxo existencial.
-                        </p>                        
-                    </div>
-
+                <div class="col-about">
+                  <a href="https://linkedin.com/in/matt-pessoa" target="_blank">
+                    <button class="button-linkedin">LinkedIn</button>
+                  </a>
                 </div>
-
+              </div>
             </div>
-        </section>
 
-        <!-- Habilidades -->
-        <section id="skills">
-
-            <div class="container">
-
-                <h2 class="title-left">&lt;habilidades&gt;</h2>
-
-                <div class="columns">
-                    <div class="hard-skills">
-                        <h3 style="color: #8d333b;">&lt;!--- hard skills ---&gt;</h3>
-                        <p style="margin: 0px; color: #2A2931; font-size: 40px;">&lt;ul&gt;</p>
-                        <ul style="margin: 0px;" class="red-text">
-                           <li><span style="color: #2A2931;">&lt;li&gt;</span>HTML<span style="color: #2A2931;">&lt;/li&gt;</span></li>
-                           <li><span style="color: #2A2931;">&lt;li&gt;</span>CSS<span style="color: #2A2931;">&lt;/li&gt;</span></li>
-                           <li><span style="color: #2A2931;">&lt;li&gt;</span>Git<span style="color: #2A2931;">&lt;/li&gt;</span></li>
-                           <li><span style="color: #2A2931;">&lt;li&gt;</span>Unix<span style="color: #2A2931;">&lt;/li&gt;</span></li>
-                        </ul>
-                        <p style="margin: 0px; color: #2A2931; font-size: 40px;">&lt;/ul&gt;</p>   
-                    </div>
-
-                    <div class="soft-skills">
-                        <h3 style="color: #3954aa;">&lt;!--- soft skills ---&gt;</h3>
-                        <p style="margin: 0px; color: #2A2931; font-size: 40px;">&lt;ul&gt;</p>
-                        <ul style="margin: 0px;" class="blue-text">
-                            <li><span style="color: #2A2931;">&lt;li&gt;</span>Colaboração<span style="color: #2A2931;">&lt;/li&gt;</span></li>
-                            <li><span style="color: #2A2931;">&lt;li&gt;</span>Flexibilidade<span style="color: #2A2931;">&lt;/li&gt;</span></li>
-                            <li><span style="color: #2A2931;">&lt;li&gt;</span>Criatividade<span style="color: #2A2931;">&lt;/li&gt;</span></li>
-                            <li><span style="color: #2A2931;">&lt;li&gt;</span>Curiosidade<span style="color: #2A2931;">&lt;/li&gt;</span></li>
-                        </ul>
-                        <p style="margin: 0px; color: #2A2931; font-size: 40px;">&lt;/ul&gt;</p>
-                    </div>
-                </div>    
-
-                    <div class="languages">
-                        <h3>idiomas<span style="color: #2A2931;">.css</span></h3>
-                            <div class="columns">
-                                <div class="col-lang">
-                                    <p style="color: #723f43">.fluente {</p>
-                                    <p><span class="lang-code" style="color: #8d333b;">pt-BR:</span> Português;</p>
-                                    <p><span class="lang-code" style="color: #8d333b;">en-US:</span> English;</p>
-                                    <p style="color: #723f43">}</p>
-                                </div>
-                                <div class="col-lang">
-                                    <p style="color: #77653f;">.intermediario {</p>
-                                    <p><span class="lang-code" style="color: #b87c04;">fr-FR:</span> Français;</p>
-                                    <p><span class="lang-code" style="color: #b87c04;">it-IT:</span> Italiano;</p>
-                                    <p style="color: #77653f;">}</p>
-                                </div>
-                                <div class="col-lang">
-                                    <p style="color: #3b4977">.basico {</p>
-                                    <p><span class="lang-code" style="color: #3954aa;">es-ES:</span> Español;</p>
-                                    <p><span class="lang-code" style="color: #3954aa;">Libras:</span> Língua Brasileira <br><span style="margin-left: 20px">de Sinais;</span></p>
-                                    <p style="color: #3b4977">}</p>
-                                </div>
-                            </div>
-                    </div>
-
-            </div>    
-
-        </section>
-
-        <section id="likes">
-            <!-- Matheus curtiu... -->
-            <div class="container">
-                <!-- <h1><a href="#fotomatt" class="link-inline red-text">Matheus</a> curtiu...</h1> -->
-
-                <h1><3</h1>
-
-                <div class="columns">
-                    <!-- James Gurney -->
-                    <div class="col-likes" style="background-color: #723f431c;">
-                        <a href="http://gurneyjourney.blogspot.com/" target="_blank">
-                            <img src="https://1.bp.blogspot.com/-H2Wk0ubkdqc/YPlh-SIR-SI/AAAAAAADN8M/JGq5K1yjdOYho00xCNJBxGa8vHJA3r6fQCLcBGAsYHQ/s1100/Clonmel.jpeg" 
-                            alt="Pintura a guache de uma árvore com folhas verdes perto de um lago">
-                        </a>
-                            <h3>James Gurney</h3>
-                        <p>Blog do meu artista <em>favorito</em>.</p>
-                    </div>
-
-                    <!-- Nathaniel Drew -->
-                    <div class="col-likes" style="background-color: #77653f1c">
-                        <a href="https://www.nathanieldrew.com/about-this-project" target="_blank">
-                            <img src="https://pbs.twimg.com/profile_images/1205921945583177728/UlBch10n_400x400.jpg" 
-                            alt="Busto de um homem caucasiano de perfil com a mão na boca, usando uma camisa branca">
-                        </a>
-                        <h3>Nathaniel Drew</h3>
-                        <p>Ótimo blog sobre clareza mental.</p>
-                    </div>
-
-                    <!-- Micah Christensen  -->
-                    <div class="col-likes" style="background-color: #3b49771c;">
-                        <a href="https://www.youtube.com/channel/UCEfIAZkEQfjHdxSoVWXuRaA" target="_blank">
-                            <img src="https://classicistutah.files.wordpress.com/2017/11/22448514_1556096611124009_8178643535764091741_n-e1510469359685.jpg?w=484"
-                            alt="The Consecration of Saint Nicholas - Paolo Veronese">
-                        </a>
-                        <h3>Micah Christensen</h3>
-                        <p>Canal sobre História da Arte.</p>
-                    </div>
-
-                </div>
+            <div class="col" style="text-align: right">
+              <h2>
+                <span class="yellow-text">$ cd</span>
+                <span class="blue-text">hobbies</span>
+              </h2>
+              <p>
+                Quando não estou atrás de uma tela editando arquivos de texto,
+                você pode me encontrar
+                <a
+                  href="https://www.google.com.br/maps/place/Belo+Horizonte,+MG/@-19.9025412,-44.03409,12z/data=!3m1!4b1!4m5!3m4!1s0xa690cacacf2c33:0x5b35795e3ad23997!8m2!3d-19.919052!4d-43.9386685"
+                  class="link-inline blue-text"
+                  target="_blank"
+                  >em algum lugar do mundo</a
+                >
+                <a
+                  href="https://www.instagram.com/mattabacate"
+                  class="link-inline red-text iframe-link"
+                  target="_blank"
+                >
+                  pintando quadros em aquarela<span style="color: #d3d1d1"
+                    >,</span
+                  >
+                  <iframe
+                    src="https://lh3.googleusercontent.com/-a_C41i-okTc/YQDZqegSA5I/AAAAAAAAAzo/rHE22duvwcMZZUEoqR4QARcDqTIjC1kwwCLcBGAsYHQ/20210726_132126.jpg"
+                  ></iframe> </a
+                >tocando violão com meus amigos, descobrindo novos sabores de
+                chá ou preso em algum paradoxo existencial.
+              </p>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
+
+      <!-- Habilidades -->
+      <section id="skills">
+        <div class="container">
+          <h2 class="title-left">&lt;habilidades&gt;</h2>
+
+          <div class="columns">
+            <div class="hard-skills">
+              <h3 style="color: #8d333b">&lt;!--- hard skills ---&gt;</h3>
+              <p style="margin: 0px; color: #2a2931; font-size: 40px">
+                &lt;ul&gt;
+              </p>
+              <ul style="margin: 0px" class="red-text">
+                <li>
+                  <span style="color: #2a2931">&lt;li&gt;</span>HTML<span
+                    style="color: #2a2931"
+                    >&lt;/li&gt;</span
+                  >
+                </li>
+                <li>
+                  <span style="color: #2a2931">&lt;li&gt;</span>CSS<span
+                    style="color: #2a2931"
+                    >&lt;/li&gt;</span
+                  >
+                </li>
+                <li>
+                  <span style="color: #2a2931">&lt;li&gt;</span>Git<span
+                    style="color: #2a2931"
+                    >&lt;/li&gt;</span
+                  >
+                </li>
+                <li>
+                  <span style="color: #2a2931">&lt;li&gt;</span>Unix<span
+                    style="color: #2a2931"
+                    >&lt;/li&gt;</span
+                  >
+                </li>
+              </ul>
+              <p style="margin: 0px; color: #2a2931; font-size: 40px">
+                &lt;/ul&gt;
+              </p>
+            </div>
+
+            <div class="soft-skills">
+              <h3 style="color: #3954aa">&lt;!--- soft skills ---&gt;</h3>
+              <p style="margin: 0px; color: #2a2931; font-size: 40px">
+                &lt;ul&gt;
+              </p>
+              <ul style="margin: 0px" class="blue-text">
+                <li>
+                  <span style="color: #2a2931">&lt;li&gt;</span>Colaboração<span
+                    style="color: #2a2931"
+                    >&lt;/li&gt;</span
+                  >
+                </li>
+                <li>
+                  <span style="color: #2a2931">&lt;li&gt;</span
+                  >Flexibilidade<span style="color: #2a2931">&lt;/li&gt;</span>
+                </li>
+                <li>
+                  <span style="color: #2a2931">&lt;li&gt;</span
+                  >Criatividade<span style="color: #2a2931">&lt;/li&gt;</span>
+                </li>
+                <li>
+                  <span style="color: #2a2931">&lt;li&gt;</span>Curiosidade<span
+                    style="color: #2a2931"
+                    >&lt;/li&gt;</span
+                  >
+                </li>
+              </ul>
+              <p style="margin: 0px; color: #2a2931; font-size: 40px">
+                &lt;/ul&gt;
+              </p>
+            </div>
+          </div>
+
+          <div class="languages">
+            <h3>idiomas<span style="color: #2a2931">.css</span></h3>
+            <div class="columns">
+              <div class="col-lang">
+                <p style="color: #723f43">.fluente {</p>
+                <p>
+                  <span class="lang-code" style="color: #8d333b">pt-BR:</span>
+                  Português;
+                </p>
+                <p>
+                  <span class="lang-code" style="color: #8d333b">en-US:</span>
+                  English;
+                </p>
+                <p style="color: #723f43">}</p>
+              </div>
+              <div class="col-lang">
+                <p style="color: #77653f">.intermediario {</p>
+                <p>
+                  <span class="lang-code" style="color: #b87c04">fr-FR:</span>
+                  Français;
+                </p>
+                <p>
+                  <span class="lang-code" style="color: #b87c04">it-IT:</span>
+                  Italiano;
+                </p>
+                <p style="color: #77653f">}</p>
+              </div>
+              <div class="col-lang">
+                <p style="color: #3b4977">.basico {</p>
+                <p>
+                  <span class="lang-code" style="color: #3954aa">es-ES:</span>
+                  Español;
+                </p>
+                <p style="color: #3b4977"><br /><br />}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="likes">
+        <!-- Matheus curtiu... -->
+        <div class="container">
+          <!-- <h1><a href="#fotomatt" class="link-inline red-text">Matheus</a> curtiu...</h1> -->
+
+          <h1>&lt;3</h1>
+
+          <div class="columns">
+            <!-- James Gurney -->
+            <div class="col-likes" style="background-color: #723f431c">
+              <a href="http://gurneyjourney.blogspot.com/" target="_blank">
+                <img
+                  src="https://1.bp.blogspot.com/-H2Wk0ubkdqc/YPlh-SIR-SI/AAAAAAADN8M/JGq5K1yjdOYho00xCNJBxGa8vHJA3r6fQCLcBGAsYHQ/s1100/Clonmel.jpeg"
+                  alt="Pintura a guache de uma árvore com folhas verdes perto de um lago"
+                />
+              </a>
+              <h3>James Gurney</h3>
+              <p>Blog do meu artista <em>favorito</em>.</p>
+            </div>
+
+            <!-- Nathaniel Drew -->
+            <div class="col-likes" style="background-color: #77653f1c">
+              <a
+                href="https://www.nathanieldrew.com/about-this-project"
+                target="_blank"
+              >
+                <img
+                  src="https://pbs.twimg.com/profile_images/1205921945583177728/UlBch10n_400x400.jpg"
+                  alt="Busto de um homem caucasiano de perfil com a mão na boca, usando uma camisa branca"
+                />
+              </a>
+              <h3>Nathaniel Drew</h3>
+              <p>Ótimo blog sobre clareza mental.</p>
+            </div>
+
+            <!-- Micah Christensen  -->
+            <div class="col-likes" style="background-color: #3b49771c">
+              <a
+                href="https://www.youtube.com/channel/UCEfIAZkEQfjHdxSoVWXuRaA"
+                target="_blank"
+              >
+                <img
+                  src="https://classicistutah.files.wordpress.com/2017/11/22448514_1556096611124009_8178643535764091741_n-e1510469359685.jpg?w=484"
+                  alt="The Consecration of Saint Nicholas - Paolo Veronese"
+                />
+              </a>
+              <h3>Micah Christensen</h3>
+              <p>Canal sobre História da Arte.</p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-
-</body>
+  </body>
 </html>
