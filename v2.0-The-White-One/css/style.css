@@ -18,7 +18,7 @@ main {
 }
 
 .container {
-  border: 2px solid magenta;
+  /* border: 2px solid magenta; */
 
   display: flex;
   max-width: 1080px;
@@ -28,20 +28,26 @@ main {
   align-items: center;
 }
 
-h1 {
-  border: 1px solid red;
+#title h1 {
+  /* border: 1px solid red; */
 
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
   font-size: 2em;
   font-weight: 700;
   transform: rotate(-2deg);
   color: #877974;
 }
 
-#binary {
+#title h1:hover {
+  font-size: 2.1em;
+  transition: 0.3s;
+  cursor: default;
+}
+
+#subtitle {
   /* border: 1px solid blue; */
 
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
   font-weight: 700;
   font-size: 1.1em;
   margin-top: 30em;
