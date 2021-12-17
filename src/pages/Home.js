@@ -1,12 +1,22 @@
 import React from "react";
+import "./css/Home.css";
 import Header from "../components/Header";
+import Social from "../components/Social";
+import Landing from "../components/Home/Landing";
 
 class Home extends React.Component {
 	render() {
 		return (
 			<div>
 				<Header />
-				<h1>Home</h1>
+				<section className="home-content">
+					<main>
+						<Landing />
+					</main>
+					<aside>
+						<Social />
+					</aside>
+				</section>
 			</div>
 		);
 	}
