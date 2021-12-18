@@ -1,5 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./css/Header.css";
+import homeIconClicked from "../images/home-icon-clicked.svg";
+// import homeIconUnclicked from "../images/home-icon-uncliked.svg";
 
 class Header extends React.Component {
 	render() {
@@ -8,16 +11,18 @@ class Header extends React.Component {
 				<nav>
 					<ul>
 						<li>
-							<Link to="/">Início</Link>
+							<Link to="/">
+								<img className="home-icon" src={homeIconClicked} alt="home" />
+							</Link>
 						</li>
 						<li>
-							<Link to="/about">Sobre mim</Link>
+							<Link to="/work">projetos</Link>
 						</li>
 						<li>
-							<Link to="/work">Projetos</Link>
+							<Link to="/about">sobre mim</Link>
 						</li>
 						<li>
-							<Link to="/contact">Contato</Link>
+							<Link to="/contact">contato</Link>
 						</li>
 					</ul>
 				</nav>

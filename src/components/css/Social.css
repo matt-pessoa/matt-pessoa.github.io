@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   /* border: 2px blue solid; */
   margin-right: 5%;
 }

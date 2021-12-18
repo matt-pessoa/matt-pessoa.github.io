@@ -11,6 +11,7 @@ main {
 
 aside {
   position: fixed;
+  margin-top: 10%;
   margin-left: 90%;
 }
 

@@ -6,8 +6,16 @@ import linkedin from "../images/linkedin-icon.png";
 function Social() {
 	return (
 		<section className="social">
-			<img src={gitHub} alt="" />
-			<img src={linkedin} alt="" />
+			<a href="https://github.com/matt-pessoa" target="_blank" rel="noreferrer">
+				<img src={gitHub} alt="" />
+			</a>
+			<a
+				href="https://www.linkedin.com/in/matt-pessoa/"
+				target="_blank"
+				rel="noreferrer"
+			>
+				<img src={linkedin} alt="" />
+			</a>
 		</section>
 	);
 }

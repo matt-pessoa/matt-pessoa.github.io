@@ -1,0 +1,8 @@
+ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.home-icon {
+  width: 2em;
+}
