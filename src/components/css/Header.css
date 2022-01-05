@@ -1,5 +1,11 @@
+header {
+	display: flex;
+	justify-content: center;
+}
+
 nav {
 	display: flex;
+	width: 90%;
 }
 
 ul {
@@ -9,7 +15,7 @@ ul {
 }
 
 ul > li {
-	margin: 20px 60px;
+	margin: 20px;
 }
 
 a {
@@ -19,5 +25,5 @@ a {
 
 .home-icon {
 	width: 2em;
-	margin: 20px 60px;
+	margin: 20px;
 }
