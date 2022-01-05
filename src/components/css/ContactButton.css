@@ -15,7 +15,7 @@
 .button-fill-left {
   box-shadow: inset 0px 0px 0px #F84C6E;
   transition: all 0.5s;
-  }
+}
   
 .button-fill-left:hover {
   color: #0E1212;

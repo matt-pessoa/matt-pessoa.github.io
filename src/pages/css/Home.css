@@ -1,55 +1,55 @@
 body {
-  background-color: #0E1212;
-  color: #979797;
-  font-family: 'Roboto Mono', 'monospace';
-  font-weight: bold;
+	background-color: #0e1212;
+	color: #979797;
+	font-family: "Roboto Mono", "monospace";
+	font-weight: bold;
 }
 
 main {
-  width: 90%;
+	width: 90%;
 }
 
 aside {
-  position: fixed;
-  margin-top: 10%;
-  margin-left: 90%;
+	position: fixed;
+	margin-top: 10%;
+	margin-left: 90%;
 }
 
 .home-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 5%;
 }
 
 .landing {
-  margin-left: 10%;
-  /* border: 2px red solid */
+	margin-left: 10%;
+	/* border: 2px red solid */
 }
 
 .heading {
-  color: #D3D1D1;
-  font-size: 7em;
-  margin-bottom: 0;
+	color: #d3d1d1;
+	font-size: 7em;
+	margin-bottom: 0;
 }
 
 .content {
-  margin-top: 0;
-  margin-left: 10%;
+	margin-top: 0;
+	margin-left: 10%;
 }
 
 .name {
-  font-size: 2.25em;
+	font-size: 2.25em;
 }
 
 .occupation {
-  font-size: 1.75em;
+	font-size: 1.75em;
 }
 
 .green-text {
-  color: #44DEB2;
+	color: #44deb2;
 }
 
 .blue-text {
-  color: #557FDF
+	color: #557fdf;
 }

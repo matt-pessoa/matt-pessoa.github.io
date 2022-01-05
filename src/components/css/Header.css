@@ -1,8 +1,23 @@
+nav {
+	display: flex;
+}
+
 ul {
-  display: flex;
-  justify-content: space-around;
+	display: flex;
+	list-style-type: none;
+	margin-left: auto;
+}
+
+ul > li {
+	margin: 20px 60px;
+}
+
+a {
+	color: #d3d1d1;
+	text-decoration: none;
 }
 
 .home-icon {
-  width: 2em;
+	width: 2em;
+	margin: 20px 60px;
 }

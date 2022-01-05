@@ -9,12 +9,10 @@ class Header extends React.Component {
 		return (
 			<header>
 				<nav>
+					<Link to="/">
+						<img className="home-icon" src={homeIconClicked} alt="home" />
+					</Link>
 					<ul>
-						<li>
-							<Link to="/">
-								<img className="home-icon" src={homeIconClicked} alt="home" />
-							</Link>
-						</li>
 						<li>
 							<Link to="/work">projetos</Link>
 						</li>

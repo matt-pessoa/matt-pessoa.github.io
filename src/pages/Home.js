@@ -7,7 +7,7 @@ import Landing from "../components/Home/Landing";
 class Home extends React.Component {
 	render() {
 		return (
-			<div>
+			<div className="first-page">
 				<Header />
 				<section className="home-content">
 					<main>
