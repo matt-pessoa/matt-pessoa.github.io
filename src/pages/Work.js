@@ -1,13 +1,12 @@
 import React from "react";
-import Header from "../components/Header";
+import './css/Work.css'
 
 class Work extends React.Component {
 	render() {
 		return (
-			<div>
-				<Header />
-				<h1>Work</h1>
-			</div>
+			<section className="limiter-work">
+				<h1 className="work-heading">&lt;projetos&gt;</h1>
+			</section>
 		);
 	}
 }

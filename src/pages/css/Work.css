@@ -1,0 +1,14 @@
+.work {
+	height: 100vh;
+}
+
+.limiter-work {
+	/* border: 2px solid blue; */
+	display: flex;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
+.work-heading {
+	margin-left: auto;
+}

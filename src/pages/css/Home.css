@@ -3,10 +3,7 @@ body {
 	color: #979797;
 	font-family: "Roboto Mono", "monospace";
 	font-weight: bold;
-}
-
-main {
-	width: 90%;
+	margin: 2px solid;
 }
 
 aside {
@@ -19,13 +16,14 @@ aside {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-top: 5%;
-	height: 80vh;
+	/* margin-top: 5%; */
+	height: 100vh;
 }
 
-.landing {
-	margin-left: 10%;
-	/* border: 2px red solid */
+.limiter {
+	width: 90%;
+	margin: 0 10%;
+	/* border: 2px red solid; */
 }
 
 .heading {

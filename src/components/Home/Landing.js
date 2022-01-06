@@ -4,7 +4,7 @@ import LandingText from "./LandingText";
 
 function Landing() {
 	return (
-		<div className="landing">
+		<div className="limiter">
 			<LandingText />
 			<ContactButton />
 		</div>
