@@ -19,13 +19,18 @@ ul {
 	margin-left: auto;
 }
 
-ul > li {
+ul > li,
+a {
 	margin: 20px;
 }
 
 a {
 	color: #d3d1d1;
 	text-decoration: none;
+}
+
+a:hover {
+	cursor: pointer;
 }
 
 .home-icon {

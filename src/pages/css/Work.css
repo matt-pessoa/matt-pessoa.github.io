@@ -1,5 +1,6 @@
 .work {
-	height: 100vh;
+	height: 90vh;
+	border: 2px solid green;
 }
 
 .limiter-work {
@@ -10,5 +11,8 @@
 }
 
 .work-heading {
+	color: #44deb2;
+	font-size: 7em;
+	margin: 0;
 	margin-left: auto;
 }

@@ -10,7 +10,7 @@ class Home extends React.Component {
 		return (
 			<div className="first-page">
 				<Header />
-				<section className="home-content">
+				<section className="home-content" id="landing">
 					<Landing />
 					<aside>
 						<Social />

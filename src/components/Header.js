@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Link as LinkScroll } from "react-scroll";
 import "./css/Header.css";
 import homeIconClicked from "../images/home-icon-clicked.svg";
 // import homeIconUnclicked from "../images/home-icon-uncliked.svg";
@@ -10,12 +11,28 @@ class Header extends React.Component {
 			<header>
 				<nav>
 					<Link to="/">
-						<img className="home-icon" src={homeIconClicked} alt="home" />
+						<LinkScroll
+							activeClass="active"
+							to="landing"
+							spy={true}
+							smooth={true}
+							offset={0}
+							duration= {700}
+						>
+							<img className="home-icon" src={homeIconClicked} alt="home" />
+						</LinkScroll>
 					</Link>
 					<ul>
-						<li>
-							<Link to="/work">projetos</Link>
-						</li>
+					<LinkScroll
+						activeClass="active"
+						to="work-page"
+						spy={true}
+						smooth={true}
+						offset={0}
+						duration= {700}
+					>
+						projetos
+					</LinkScroll>
 						<li>
 							<Link to="/about">sobre mim</Link>
 						</li>
