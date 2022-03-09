@@ -12,8 +12,7 @@ function LandingText() {
 					this.name = <span className="blue-text">Matt Pessoa</span>
 				</p>
 				<p className="occupation">
-					this.occupation ={" "}
-					<span className="blue-text">desenvolvedor frontend jr</span>
+					this.occupation = <span className="blue-text">web developer</span>
 				</p>
 			</div>
 			<p>

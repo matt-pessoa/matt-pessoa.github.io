@@ -11,7 +11,7 @@ function ContactButton() {
 
 	return (
 		<form onSubmit={() => handleSubmit()}>
-			<button className="contact-btn button-fill-left">Fale comigo!</button>
+			<button className="contact-btn button-fill-left">Contact me!</button>
 		</form>
 	);
 }

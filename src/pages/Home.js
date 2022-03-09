@@ -16,9 +16,6 @@ class Home extends React.Component {
 						<Social />
 					</aside>
 				</section>
-				<section className="work">
-					<Work />
-				</section>
 			</div>
 		);
 	}

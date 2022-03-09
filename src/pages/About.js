@@ -6,7 +6,7 @@ class About extends React.Component {
 		return (
 			<div>
 				<Header />
-				<h1>Sobre mim</h1>
+				<h1>About</h1>
 			</div>
 		);
 	}
