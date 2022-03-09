@@ -1,6 +1,7 @@
 .work {
+	margin-top: 8vh;
 	height: 90vh;
-	border: 2px solid green;
+	/* border: 2px solid green; */
 }
 
 .limiter-work {

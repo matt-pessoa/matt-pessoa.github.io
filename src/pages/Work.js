@@ -7,7 +7,7 @@ class Work extends React.Component {
 		return (
 			<>
 				<Header />
-				<section className="limiter-work" id="work-page">
+				<section className="limiter-work work" id="work-page">
 					<h1 className="work-heading">&lt;projects&gt;</h1>
 				</section>
 			</>
