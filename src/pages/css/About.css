@@ -1,0 +1,78 @@
+.about-section {
+	display: flex;
+	margin-top: 8vh;
+	height: 75vh;
+}
+
+.about-content {
+	height: 60vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	/* border: 2px solid green; */
+}
+
+.social-about {
+	margin-top: 20%;
+	margin-left: 92%;
+}
+
+.limiter {
+	width: 90%;
+	margin: 0 10%;
+	/* border: 2px red solid; */
+}
+
+.about-headings {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.about-heading {
+	color: #44deb2;
+	font-size: 7em;
+	margin: 0;
+	/* margin-left: 53%; */
+}
+
+.about-sentence {
+	color: #d3d1d1;
+	font-weight: 700;
+	font-size: 3em;
+	margin: 0;
+}
+
+.red-text {
+	color: #f84c6e;
+}
+
+.about-columns {
+	display: flex;
+	justify-content: space-between;
+}
+
+.about-matt,
+.about-hobbies {
+	color: #979797;
+	font-size: 1.5em;
+	width: 40%;
+}
+
+.about-hobbies {
+	text-align: right;
+}
+
+.column-title {
+	font-size: 1.8em;
+	margin: 0;
+	margin-top: 5%;
+}
+
+.orange-text {
+	color: #ff8e4e;
+}
+
+.about-paragraph {
+	margin: 0;
+}
