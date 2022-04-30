@@ -7,6 +7,7 @@
 .limiter-contact {
 	/* border: 2px solid blue; */
 	display: flex;
+	flex-direction: column;
 	margin-right: 10%;
 	margin-left: 10%;
 }
