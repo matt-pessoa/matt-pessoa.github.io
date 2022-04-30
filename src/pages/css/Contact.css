@@ -1,0 +1,19 @@
+.contact {
+	margin-top: 8vh;
+	height: 90vh;
+	/* border: 2px solid green; */
+}
+
+.limiter-contact {
+	/* border: 2px solid blue; */
+	display: flex;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
+.contact-heading {
+	color: #44deb2;
+	font-size: 7em;
+	margin: 0;
+	margin-left: auto;
+}
